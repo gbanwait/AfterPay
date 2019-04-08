@@ -1,0 +1,42 @@
+{
+  "name": "afterpayapp",
+  "version": "1.0.0",
+  "description": "AfterPay Interview App",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "webpack": "webpack --progress --colors",
+    "start": "npm start"
+  },
+  "keywords": [
+    "Address",
+    "Credit",
+    "Card",
+    "Checkout"
+  ],
+  "author": "Gurpreet Banwait",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "css-loader": "^2.1.1",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}

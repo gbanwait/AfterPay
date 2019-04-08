@@ -1,0 +1,101 @@
+body {
+    background-color:#f5f7fa;
+    font-size: 14px;
+    color: #2d3134;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+#main {
+    max-width: 900px;
+    margin: 0 auto;
+
+    input {
+        border: 2px solid#e2e0e0;
+        border-radius: 5px;
+        padding: 8px;
+        width: 300px;
+        margin: 15px 0px;
+    }
+    .submit {
+        background-color: #2471ca;
+        width: 150px;
+        padding: 8px;
+        border-radius: 5px;
+    }
+    .form-lable {
+        font-family: 'Courier New', Courier, monospace;
+        display: block;
+        font: bold;
+    }
+    .form-select {
+        border: 2px solid#e2e0e0;
+        border-radius: 5px;
+        padding: 8px;
+        width: 300px;
+        margin: 15px 0px;
+    }
+    .form-group-select {
+        display: inline-block;
+        .form-select {
+            width: 150px;
+        }
+    }
+    #formError {
+        color: #a94442;
+        background-color: #f2dede;
+        border-color: #ebccd1;
+        padding: 15px;
+        width: 300px;
+        font-weight: bold;
+    }
+    .error {
+        color: red;
+        margin: 5px;
+        font-weight: bold;
+        padding: 0 2px;
+    }
+
+    .fieldError {
+        border-color: red;
+    }
+
+    #success {
+        color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+        padding: 15px;
+        width: 300px;
+        font-weight: bold;
+        overflow-wrap: break-word;
+    }
+    .btn {
+        border: 2px solid black;
+        background-color: white;
+        color: black;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .submit {
+        border-color: #2196F3;
+        color: dodgerblue
+    }
+      
+    .submit:hover {
+        background: #2196F3;
+        color: white;
+    }
+      
+}
+
+@media screen and (max-width: 400) {
+    #main {
+        max-width: 400px;
+        padding: 0 5px;
+    }
+    input .formSelect .formError .success {
+        width: 100%;
+    }
+}
