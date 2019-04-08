@@ -1,10 +1,14 @@
 # AfterPay
 AfterPay Api App
 
+#Pre Req
+1. node 8.x.x
+2. npm 5.x.x
+
 How to run App
  1. git clone https://github.com/gbanwait/AfterPay.git
  2. npm install .
- 3. npm run webpack
+ 3. npm run webpack (if any change in client)
  4. node .
  
  
